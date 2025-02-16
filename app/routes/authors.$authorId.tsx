@@ -2,15 +2,32 @@ import { useParams, useNavigate } from "@remix-run/react";
 import { Page, Card, DataTable, Button, Spinner, BlockStack, InlineGrid, Text } from "@shopify/polaris";
 import { useEffect, useState } from "react";
 
+interface Book {
+  id: number;
+  title: string;
+  release_date: string;
+  description: string;
+  isbn: string;
+  format: string;
+  number_of_pages: number;
+}
+
+interface Author {
+  id: number;
+  first_name: string;
+  last_name: string;
+  books: Book[];
+}
+
 export default function AuthorDetails() {
   const { authorId } = useParams();
   const navigate = useNavigate();
-  const [author, setAuthor] = useState(null);
+  const [author, setAuthor] = useState<Author | null>(null);
 
   useEffect(() => {
     const storedAuthors = localStorage.getItem("authorsData");
     if (storedAuthors) {
-      const authors = JSON.parse(storedAuthors);
+      const authors: Author[] = JSON.parse(storedAuthors);
       const foundAuthor = authors.find((a) => a.id === Number(authorId));
       if (foundAuthor) {
         setAuthor(foundAuthor);
@@ -22,7 +39,7 @@ export default function AuthorDetails() {
     return <Spinner accessibilityLabel="Loading Author Details" size="large" />;
   }
 
-  const bookRows = author?.books?.map((book) => [
+  const bookRows = author.books.map((book) => [
     book.title,
     book.description,
     book.release_date.split("T")[0],
@@ -38,7 +55,7 @@ export default function AuthorDetails() {
         <BlockStack gap="200">
           <InlineGrid columns="1fr auto">
             <Text as="h2" variant="headingSm">
-              {author?.first_name} {author?.last_name}
+              {author.first_name} {author.last_name}
             </Text>
             <Button
               onClick={() => navigate(`/books/add`)}
