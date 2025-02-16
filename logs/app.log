@@ -2006,3 +2006,21 @@
 [2025-02-16T14:31:15.209Z] [32MINFO[39M: Fetching authors data for page 2
 [2025-02-16T14:31:22.806Z] [32MINFO[39M: Inside Loading function of Loader
 [2025-02-16T14:31:22.806Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:44:32.867Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:44:32.867Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:44:36.002Z] [32MINFO[39M: Loading Profile: Checking if user is authenticated
+[2025-02-16T14:44:36.003Z] [32MINFO[39M: User authenticated, loading profile data.
+[2025-02-16T14:44:37.951Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:44:37.952Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:44:39.436Z] [32MINFO[39M: Loading Profile: Checking if user is authenticated
+[2025-02-16T14:44:39.437Z] [32MINFO[39M: User authenticated, loading profile data.
+[2025-02-16T14:44:41.554Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:44:41.554Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:44:44.431Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T14:44:44.431Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T14:55:56.637Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T14:55:56.638Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T14:56:10.623Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T14:56:10.623Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T14:56:22.624Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T14:56:22.625Z] [32MINFO[39M: User is authenticated, proceeding

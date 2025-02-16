@@ -70,7 +70,7 @@ export const action: ActionFunction = async ({ request }) => {
   logger.info(`Updating book with ID: ${JSON.stringify(updatedBook,null,2)}`);
   if(request.method ==="PUT"){
   logger.info(`book payload is: ${JSON.stringify(payload,null,2)}`);
-  const response = await fetch(`https://candidate-testing.com/api/v2/books/${Number(updatedBook.id)}`, {
+  const response = await fetch(`${process.env.BASEURL}/books/${Number(updatedBook.id)}`, {
     method: "PUT",
     headers: {
       "Accept": "application/json",
@@ -92,7 +92,7 @@ export const action: ActionFunction = async ({ request }) => {
  }else if(request.method ==="DELETE" ) {
   console.log("BBBBBB");
 
-  const response = await fetch(`https://candidate-testing.com/api/v2/books/${updatedBook.id}`, {
+  const response = await fetch(`${process.env.BASEURL}/books/${updatedBook.id}`, {
     method: "DELETE",
     headers: {
       "Accept": "application/json",
