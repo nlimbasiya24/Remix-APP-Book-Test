@@ -1,9 +1,9 @@
+// remix-test-app/app/routes/login.tsx
 import { useState } from "react";
 import { Form, useActionData, redirect } from "@remix-run/react";
 import { ActionFunction, json } from "@remix-run/node";
-import { Card, Page, TextField, Button,BlockStack,AppProvider } from "@shopify/polaris";
-import { commitSession, getSession, destroySession } from "../session.server";
-
+import { Card, Page, TextField, Button, BlockStack, Spinner } from "@shopify/polaris";
+import { commitSession, getSession } from "../session.server";
 
 export const action: ActionFunction = async ({ request }) => {
   const formData = await request.formData();
@@ -25,7 +25,7 @@ export const action: ActionFunction = async ({ request }) => {
   session.set("token", data.token_key);
   session.set("user", data.user);
 
-  return redirect("/authors", {
+  return redirect("/authors/list", {
     headers: {
       "Set-Cookie": await commitSession(session),
     },
@@ -33,25 +33,29 @@ export const action: ActionFunction = async ({ request }) => {
 };
 
 export default function Login() {
-  const actionData:any = useActionData();
+  const actionData: any = useActionData();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = (event: React.FormEvent) => {
+    setLoading(true);
+  };
 
   return (
-   
     <Page title="Login">
-      <Card >
-        <Form method="post">
+      <Card>
+        <Form method="post" onSubmit={handleSubmit}>
           <BlockStack>
             {actionData?.error && <p style={{ color: "red" }}>{actionData.error}</p>}
-            <TextField label="Email" name="email" value={email} onChange={setEmail} autoComplete="email"/>
-            <TextField label="Password" name="password" type="password" value={password} onChange={setPassword} autoComplete="current-password"/>
-            <Button submit variant="primary">Login</Button>
+            <TextField label="Email" name="email" value={email} onChange={setEmail} autoComplete="email" />
+            <TextField label="Password" name="password" type="password" value={password} onChange={setPassword} autoComplete="current-password" />
+            <Button submit  loading={loading} variant="primary">
+               Login
+            </Button>
           </BlockStack>
         </Form>
       </Card>
     </Page>
-  
-
   );
 }
