@@ -3,8 +3,9 @@ import { LoaderFunction, defer, redirect } from "@remix-run/node";
 import { useLoaderData, Form, useSearchParams, Link, Await } from "@remix-run/react";
 import { Suspense } from "react";
 import { getSession } from "../session.server";
-import { Page, Card, DataTable, Button, Pagination, Spinner } from "@shopify/polaris";
+import { Page, Card, DataTable, Button, Pagination, Spinner,BlockStack,InlineGrid,ButtonGroup } from "@shopify/polaris";
 import { useEffect } from "react";
+import { useParams, useNavigate } from "@remix-run/react";
 
 interface Author {
   id: number;
@@ -45,7 +46,7 @@ export const loader: LoaderFunction = async ({ request }) => {
   const authorsWithBooksPromise = authorsDataPromise.then(async (authorsData: AuthorsData) => {
     return Promise.all(
       authorsData.items.map(async (author: Author) => {
-        const authorResponse = await fetch(`https://candidate-testing.com/api/v2/authors/${author.id}`, {
+        const authorResponse = await fetch(`${process.env.BASEURL}/authors/${author.id}`, {
           headers: {
             "Accept": "application/json",
             "Authorization": token,
@@ -66,6 +67,7 @@ export const loader: LoaderFunction = async ({ request }) => {
 export default function AuthorsList() {
   const loaderData = useLoaderData<typeof loader>();
   const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (loaderData.authorsWithBooksPromise) {
@@ -91,21 +93,37 @@ export default function AuthorsList() {
               </Form>
             ]);
             return (
-              <>
+            
+              <BlockStack gap="200">
                 <Card>
-                  <DataTable 
-                    columnContentTypes={["text", "numeric", "text"]} 
-                    headings={["Name", "Book Count", "Actions"]} 
-                    rows={rows} 
-                  />
+                   <BlockStack gap="200">
+                      <InlineGrid columns="1fr auto">
+                          <ButtonGroup>
+                              <Button
+                                onClick={() => navigate(`/books/add`)}
+                                accessibilityLabel="Add New Book"
+                                variant="primary"
+                              >
+                                Add New Book
+                              </Button> 
+                            </ButtonGroup>
+                      </InlineGrid>
+                        <DataTable 
+                          columnContentTypes={["text", "numeric", "text"]} 
+                          headings={["Name", "Book Count", "Actions"]} 
+                          rows={rows} 
+                        />
+                    </BlockStack>
+                  
                 </Card>
-                <Pagination
-                  hasPrevious={loaderData.authorsDataPromise.current_page > 1}
-                  onPrevious={() => setSearchParams({ page: String(loaderData.authorsDataPromise.current_page - 1) })}
-                  hasNext={loaderData.authorsDataPromise.current_page < loaderData.authorsDataPromise.total_pages}
-                  onNext={() => setSearchParams({ page: String(loaderData.authorsDataPromise.current_page + 1) })}
-                />
-              </>
+                    <Pagination
+                      hasPrevious={loaderData.authorsDataPromise.current_page > 1}
+                      onPrevious={() => setSearchParams({ page: String(loaderData.authorsDataPromise.current_page - 1) })}
+                      hasNext={loaderData.authorsDataPromise.current_page < loaderData.authorsDataPromise.total_pages}
+                      onNext={() => setSearchParams({ page: String(loaderData.authorsDataPromise.current_page + 1) })}
+                    />
+                </BlockStack>
+                
             );
           }}
         </Await>

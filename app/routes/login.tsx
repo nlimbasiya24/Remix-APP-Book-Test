@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Form, useActionData, redirect } from "@remix-run/react";
 import { ActionFunction, json } from "@remix-run/node";
-import { Card, Page, TextField, Button, BlockStack, Spinner } from "@shopify/polaris";
+import { Card, Page, TextField, Button, BlockStack,ButtonGroup } from "@shopify/polaris";
 import { commitSession, getSession } from "../session.server";
 
 export const action: ActionFunction = async ({ request }) => {
@@ -46,14 +46,17 @@ export default function Login() {
     <Page title="Login">
       <Card>
         <Form method="post" onSubmit={handleSubmit}>
-          <BlockStack>
+          <BlockStack gap="200">
             {actionData?.error && <p style={{ color: "red" }}>{actionData.error}</p>}
-            <TextField label="Email" name="email" value={email} onChange={setEmail} autoComplete="email" />
+            <TextField  label="Email" name="email" value={email} onChange={setEmail} autoComplete="email" />
             <TextField label="Password" name="password" type="password" value={password} onChange={setPassword} autoComplete="current-password" />
-            <Button submit  loading={loading} variant="primary">
-               Login
-            </Button>
+            <ButtonGroup>
+                  <Button  submit  loading={loading} variant="primary">
+                    Login
+                  </Button>
+            </ButtonGroup>
           </BlockStack>
+
         </Form>
       </Card>
     </Page>

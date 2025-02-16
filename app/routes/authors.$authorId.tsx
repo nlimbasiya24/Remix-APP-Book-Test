@@ -21,7 +21,7 @@ interface Author {
 
 export default function AuthorDetails() {
   const { authorId } = useParams();
-  const navigate = useNavigate();
+
   const [author, setAuthor] = useState<Author | null>(null);
 
   useEffect(() => {
@@ -57,13 +57,13 @@ export default function AuthorDetails() {
             <Text as="h2" variant="headingSm">
               {author.first_name} {author.last_name}
             </Text>
-            <Button
+            {/* <Button
               onClick={() => navigate(`/books/add`)}
               accessibilityLabel="Add New Book"
               variant="primary"
             >
               Add New Book
-            </Button>
+            </Button> */}
           </InlineGrid>
         </BlockStack>
       </Card>
