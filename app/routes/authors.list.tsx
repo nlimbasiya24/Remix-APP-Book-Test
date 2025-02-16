@@ -4,6 +4,7 @@ import { useLoaderData, Form, useSearchParams, Link, Await } from "@remix-run/re
 import { Suspense } from "react";
 import { getSession } from "../session.server";
 import { Page, Card, DataTable, Button, Pagination, Spinner } from "@shopify/polaris";
+import { useEffect } from "react";
 
 interface Author {
   id: number;
@@ -14,6 +15,7 @@ interface Author {
   gender: string;
   place_of_birth: string;
   book_count: number;
+  book?:[];
 }
 
 interface AuthorsData {
@@ -50,7 +52,7 @@ export const loader: LoaderFunction = async ({ request }) => {
           },
         });
         const authorDetail = await authorResponse.json();
-        return { ...author, book_count: authorDetail.books.length };
+        return { ...author, book_count: authorDetail.books.length,books:authorDetail.books };
       })
     );
   });
@@ -64,6 +66,14 @@ export const loader: LoaderFunction = async ({ request }) => {
 export default function AuthorsList() {
   const loaderData = useLoaderData<typeof loader>();
   const [searchParams, setSearchParams] = useSearchParams();
+
+  useEffect(() => {
+    if (loaderData.authorsWithBooksPromise) {
+      loaderData.authorsWithBooksPromise.then((authors:any) => {
+        localStorage.setItem("authorsData", JSON.stringify(authors));
+      });
+    }
+  }, [loaderData]);
 
   return (
     <Page title="Authors">
