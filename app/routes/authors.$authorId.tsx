@@ -1,5 +1,5 @@
 import { useParams, useNavigate, useFetcher } from "@remix-run/react";
-import { Page, Card, DataTable, Button, Spinner, BlockStack, InlineGrid, Text, TextField, Modal, FormLayout } from "@shopify/polaris";
+import { Page, Card, DataTable, Button, Spinner, BlockStack, InlineGrid, Text, TextField, Modal, FormLayout, ButtonGroup } from "@shopify/polaris";
 import { useEffect, useState } from "react";
 import { ActionFunction, json, LoaderFunction, redirect } from "@remix-run/node";
 import { getSession } from "../session.server";
@@ -18,9 +18,14 @@ interface Book {
 
 interface Author {
   id: number;
-  first_name: string;
-  last_name: string;
-  books: Book[];
+  first_name?: string;
+  last_name?: string;
+  birthday?: string;
+  biography?: string;
+  gender?: string;
+  place_of_birth?: string;
+  book_count: number;
+  books:[];
 }
 
 export const loader: LoaderFunction = async ({ request }) => {
@@ -43,10 +48,7 @@ export const action: ActionFunction = async ({ request }) => {
   const session = await getSession(request.headers.get("Cookie"));
   const token = session.get("token");
 
-  console.log("request",request.method);
-
-
-
+  console.log("request",request.method)
   if (!token) {
     logger.warn("Unauthorized attempt to update book");
     return json({ error: "Unauthorized" }, { status: 401 });
@@ -55,20 +57,20 @@ export const action: ActionFunction = async ({ request }) => {
   const updatedBook = Object.fromEntries(formData);
   const payload = {
     author: {
-    id: updatedBook.authorId
+    id: Number(updatedBook.authorId)
       },
-      id:updatedBook.id,
       title: updatedBook.title,
       release_date: updatedBook.release_date,
       description: updatedBook.description,
       isbn: updatedBook.isbn,
       format: updatedBook.format,
-      number_of_pages:updatedBook.number_of_pages
+      number_of_pages:Number(updatedBook.number_of_pages)
   }
 
   logger.info(`Updating book with ID: ${JSON.stringify(updatedBook,null,2)}`);
   if(request.method ==="PUT"){
-  const response = await fetch(`https://candidate-testing.com/api/v2/books/${updatedBook.id}`, {
+  logger.info(`book payload is: ${JSON.stringify(payload,null,2)}`);
+  const response = await fetch(`https://candidate-testing.com/api/v2/books/${Number(updatedBook.id)}`, {
     method: "PUT",
     headers: {
       "Accept": "application/json",
@@ -82,9 +84,11 @@ export const action: ActionFunction = async ({ request }) => {
     logger.error("Failed to update book");
     return json({ error: "Failed to update book" }, { status: 400 });
   }
+  let data = await response.json();
+  console.log("data",data);
 
   logger.info("Book updated successfully");
-  return json(await response.json());
+  return json({updatedBookResponse:data,method:"put"});
  }else if(request.method ==="DELETE" ) {
   console.log("BBBBBB");
 
@@ -124,7 +128,7 @@ export default function AuthorDetails() {
     const storedAuthors = localStorage.getItem("authorsData");
     if (storedAuthors) {
       const authors: Author[] = JSON.parse(storedAuthors);
-      const foundAuthor = authors.find((a) => a.id === Number(authorId));
+      const foundAuthor:any = authors.find((a) => a.id === Number(authorId));
       if (foundAuthor) {
         setAuthor(foundAuthor);
         setFilteredBooks(foundAuthor.books);
@@ -133,25 +137,77 @@ export default function AuthorDetails() {
         navigate("/authors/list")
     }
   }, [authorId]);
-
   useEffect(() => {
-       if(fetcher.data ){
-           const storedAuthors = localStorage.getItem("authorsData");  
-           if(storedAuthors){  
-           const {method,bookId,authorId} = fetcher.data;
-              if(method === "delete"){
-                  
-              } 
-           }else{
-            navigate("/authors/list")
-           }
-       }
+    console.log("fetcher.data", fetcher.data);
+  
+    if (fetcher.data) {
+      const storedAuthors = localStorage.getItem("authorsData");
+  
+      if (storedAuthors) {
+        const { method, bookId, authorId, updatedBookResponse }: any = fetcher.data;
+        const authors: Author[] = JSON.parse(storedAuthors);
+  
+        // Handle Delete Flow
+        if (method === "delete") {
+          const updatedAuthors: any = authors.map((author: Author) => {
+            if (Number(author.id) === Number(updatedBookResponse?.auther?.id)) {
+              return {
+                ...author,
+                books: author?.books?.filter(
+                  (book: any) => Number(book.id) !== Number(updatedBookResponse)
+                ),
+                book_count: author?.book_count - 1, // Reduce book count
+              };
+            }
+            return author;
+          });
+  
+          localStorage.setItem("authorsData", JSON.stringify(updatedAuthors));
+          setFilteredBooks((prevBooks) =>
+            prevBooks.filter((book) => Number(book.id) !== Number(bookId))
+          );
+        }
+  
+        // Handle Update Flow
+        else if (method === "put") {
+          setIsEditing(false);
+         
 
-  },[fetcher.data])
+          console.log("updatedBookResponse",updatedBookResponse);
+
+          const updatedAuthors: any = authors.map((author: Author) => {
+            if (Number(author.id) === Number(updatedBookResponse.author.id)) {
+              return {
+                ...author,
+                books: author?.books?.map((book: any) =>
+                  Number(book.id) === Number(updatedBookResponse.id) ? { ...book, title:updatedBookResponse.title,
+                    description:updatedBookResponse.description,format:updatedBookResponse.format } : book
+                ),
+              };
+            }
+            return author;
+          });
+  
+          localStorage.setItem("authorsData", JSON.stringify(updatedAuthors));
+  
+          setFilteredBooks((prevBooks) =>
+            prevBooks.map((book) =>
+              Number(book.id) === Number(updatedBookResponse.id) ? { ...book, title:updatedBookResponse.title,
+                description:updatedBookResponse.description,format:updatedBookResponse.format } : book
+            )
+          );
+        }
+      } else {
+        navigate("/authors/list");
+      }
+    }
+  }, [fetcher.data, navigate]);
+  
+  
 
   useEffect(() => {
     if (author) {
-      const filtered = author.books.filter((book) =>
+      const filtered:any = author?.books?.filter((book:Book) =>
         book.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         book.format.toLowerCase().includes(searchQuery.toLowerCase()) ||
         book.release_date.includes(searchQuery)
@@ -170,10 +226,10 @@ export default function AuthorDetails() {
 
       console.log("editBook",editBook);
       fetcher.submit(
-        { ...editBook,authorId:author?.id},
+        { ...editBook,authorId:Number(author?.id)},
         { method: "put" }
       );
-      setIsEditing(false);
+     
     }
   };
 
@@ -182,10 +238,10 @@ export default function AuthorDetails() {
   }
 
   function handleDeleteBook(book:Book){
-     console.log("book",book);
-          if (editBook && author) {
+
+          if (author) {
           fetcher.submit(
-            { ...editBook,authorId:author?.id},
+            { ...book,authorId:author?.id},
             { method: "delete" }
           );
       }
@@ -212,13 +268,23 @@ export default function AuthorDetails() {
             <Text as="h2" variant="headingSm">
               {author.first_name} {author.last_name}
             </Text>
-            <Button
-              onClick={() => navigate(`/books/add`)}
-              accessibilityLabel="Add New Book"
-              variant="primary"
-            >
-              Add New Book
-            </Button>
+            <ButtonGroup>
+                <Button
+                  onClick={() => navigate(`/authors/list`)}
+                  accessibilityLabel="Back to Authors"
+                  variant="secondary"
+                >
+                  Back to Authors
+                </Button>
+                <Button
+                  onClick={() => navigate(`/books/add`)}
+                  accessibilityLabel="Add New Book"
+                  variant="primary"
+                >
+                  Add New Book
+                </Button>
+               
+            </ButtonGroup>
           </InlineGrid>
           <TextField
             label="Search Books"

@@ -578,3 +578,1131 @@
 [2025-02-16T12:30:18.583Z] [32MINFO[39M: Inside Loading function of Loader
 [2025-02-16T12:30:36.720Z] [32MINFO[39M: Checking if user is authenticated in loader function
 [2025-02-16T12:30:36.721Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:37:50.474Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:37:50.474Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:38:13.697Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:38:13.698Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:38:18.763Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:38:18.764Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:38:20.438Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:38:20.438Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:38:21.352Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:38:21.352Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:39:28.382Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T12:39:34.418Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:39:34.418Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:39:58.958Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:39:58.959Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:40:00.478Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:40:00.479Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:40:02.324Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:40:02.325Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:40:04.532Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:40:04.532Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:40:05.548Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:40:05.548Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:40:36.002Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:40:36.002Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:40:36.003Z] [32MINFO[39M: Updating book with ID: {
+  "id": "941",
+  "title": "Cover Drive123",
+  "release_date": "2025-02-22T00:00:00+00:00",
+  "description": "How To play cover drive",
+  "isbn": "ABCDF",
+  "format": "text",
+  "number_of_pages": "55",
+  "authorId": "350"
+}
+[2025-02-16T12:40:37.160Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T12:40:37.170Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:40:37.171Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:41:05.556Z] [32MINFO[39M: Inside Loading function of books add
+[2025-02-16T12:41:07.888Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T12:41:12.284Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:41:12.284Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:41:18.351Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T12:41:22.515Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:41:22.515Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:41:37.343Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T12:41:40.320Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:41:40.322Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:42:22.012Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:42:22.012Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:42:22.013Z] [32MINFO[39M: Updating book with ID: {
+  "id": "941",
+  "title": "Cover Drive123",
+  "release_date": "2025-02-22T00:00:00+00:00",
+  "description": "How To play cover drive",
+  "isbn": "ABCDF",
+  "format": "text",
+  "number_of_pages": "55",
+  "authorId": "350"
+}
+[2025-02-16T12:42:23.042Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T12:42:23.052Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:42:23.053Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:42:44.025Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:42:44.025Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:42:44.026Z] [32MINFO[39M: Updating book with ID: {
+  "id": "941",
+  "title": "Cover Driveasd",
+  "release_date": "2025-02-22T00:00:00+00:00",
+  "description": "How To play cover drive",
+  "isbn": "ABCDF",
+  "format": "text",
+  "number_of_pages": "55",
+  "authorId": "350"
+}
+[2025-02-16T12:42:44.969Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T12:42:44.982Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:42:44.982Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:44:58.172Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:44:58.173Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:45:18.229Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:45:18.231Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:45:41.051Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:45:41.051Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:45:41.055Z] [32MINFO[39M: Updating book with ID: {
+  "id": "941",
+  "title": "Cover Drive",
+  "release_date": "2025-02-22T00:00:00+00:00",
+  "description": "How To play cover drive",
+  "isbn": "ABCDF",
+  "format": "text",
+  "number_of_pages": "55",
+  "authorId": "350"
+}
+[2025-02-16T12:45:42.193Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T12:45:42.212Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:45:42.218Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:45:55.349Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:45:55.349Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:46:08.400Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:46:08.401Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:46:09.918Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:46:09.918Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:46:13.980Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:46:13.980Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:46:22.015Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:46:22.016Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:46:23.196Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:46:23.197Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:46:24.729Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:46:24.729Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:46:26.016Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:46:26.017Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:46:28.637Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:46:28.638Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:46:30.341Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:46:30.342Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:46:33.983Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:46:33.984Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:46:35.501Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:46:35.502Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:46:36.416Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:46:36.416Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:46:41.492Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:46:41.493Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:46:41.494Z] [32MINFO[39M: Updating book with ID: {
+  "id": "941",
+  "title": "Cover Drive",
+  "release_date": "2025-02-22T00:00:00+00:00",
+  "description": "How To play cover drive",
+  "isbn": "ABCDF",
+  "format": "text",
+  "number_of_pages": "55",
+  "authorId": "350"
+}
+[2025-02-16T12:46:42.506Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T12:46:57.890Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:46:57.892Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:47:01.360Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:47:01.361Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:47:01.362Z] [32MINFO[39M: Updating book with ID: {
+  "id": "941",
+  "title": "Cover Drive",
+  "release_date": "2025-02-22T00:00:00+00:00",
+  "description": "How To play cover drive",
+  "isbn": "ABCDF",
+  "format": "text",
+  "number_of_pages": "55",
+  "authorId": "350"
+}
+[2025-02-16T12:47:02.475Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T12:47:23.295Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:47:23.295Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:47:25.485Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:47:25.486Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:47:28.603Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:47:28.604Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:47:29.722Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:47:29.722Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:47:38.753Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:47:38.754Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:47:44.113Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:47:44.113Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:47:44.115Z] [32MINFO[39M: Updating book with ID: {
+  "id": "941",
+  "title": "Cover Driveqwer",
+  "release_date": "2025-02-22T00:00:00+00:00",
+  "description": "How To play cover drive",
+  "isbn": "ABCDF",
+  "format": "text",
+  "number_of_pages": "55",
+  "authorId": "350"
+}
+[2025-02-16T12:47:45.176Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T12:47:45.195Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:47:45.196Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:47:53.132Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:47:53.132Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:47:53.133Z] [32MINFO[39M: Updating book with ID: {
+  "id": "941",
+  "title": "Cover Drive",
+  "release_date": "2025-02-22T00:00:00+00:00",
+  "description": "How To play cover drive rer",
+  "isbn": "ABCDF",
+  "format": "text",
+  "number_of_pages": "55",
+  "authorId": "350"
+}
+[2025-02-16T12:47:54.102Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T12:47:54.113Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:47:54.114Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:49:23.968Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:49:23.969Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:49:28.286Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:49:28.286Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:49:35.747Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:49:35.748Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:49:39.708Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:49:39.708Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:49:43.314Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:49:43.314Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:49:46.794Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:49:46.795Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:49:49.906Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:49:49.907Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:49:54.771Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:49:54.771Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:49:54.772Z] [32MINFO[39M: Updating book with ID: {
+  "id": "941",
+  "title": "Cover Drive",
+  "release_date": "2025-02-22T00:00:00+00:00",
+  "description": "How To play cover drive",
+  "isbn": "ABCDF",
+  "format": "text",
+  "number_of_pages": "55",
+  "authorId": "350"
+}
+[2025-02-16T12:49:54.772Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": "350"
+  },
+  "id": "941",
+  "title": "Cover Drive",
+  "release_date": "2025-02-22T00:00:00+00:00",
+  "description": "How To play cover drive",
+  "isbn": "ABCDF",
+  "format": "text",
+  "number_of_pages": "55"
+}
+[2025-02-16T12:49:55.879Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T12:49:55.894Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:49:55.895Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:51:20.241Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:51:20.241Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:51:29.518Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T12:51:33.505Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:51:33.506Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:52:09.747Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:52:09.747Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:52:09.748Z] [32MINFO[39M: Updating book with ID: {
+  "id": "929",
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "assssss",
+  "isbn": "string",
+  "format": "stringass",
+  "number_of_pages": "0",
+  "authorId": "350"
+}
+[2025-02-16T12:52:09.748Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": "350"
+  },
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "assssss",
+  "isbn": "string",
+  "format": "stringass",
+  "number_of_pages": "0"
+}
+[2025-02-16T12:52:10.713Z] [31MERROR[39M: Failed to update book
+[2025-02-16T12:52:10.739Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:52:10.740Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:52:36.230Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T12:52:40.008Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:52:40.009Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:54:01.048Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:54:01.049Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:54:01.050Z] [32MINFO[39M: Updating book with ID: {
+  "id": "929",
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "sssssssssss",
+  "isbn": "string",
+  "format": "asdadad",
+  "number_of_pages": "0",
+  "authorId": "350"
+}
+[2025-02-16T12:54:01.050Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": "350"
+  },
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "sssssssssss",
+  "isbn": "string",
+  "format": "asdadad",
+  "number_of_pages": "0"
+}
+[2025-02-16T12:54:02.010Z] [31MERROR[39M: Failed to update book
+[2025-02-16T12:54:02.026Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:54:02.027Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:54:38.602Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:54:38.602Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:54:45.590Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:54:45.591Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:55:01.590Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:55:01.591Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:55:10.598Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:55:10.599Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:55:16.589Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:55:16.590Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:55:24.589Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:55:24.590Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:55:25.594Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:55:25.595Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:55:42.584Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:55:42.585Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:55:44.581Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:55:44.582Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:55:46.592Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:55:46.592Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:55:52.588Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:55:52.590Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:56:13.620Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:56:13.620Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:56:13.622Z] [32MINFO[39M: Updating book with ID: {
+  "id": "929",
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "SSSSSSSSSSS",
+  "isbn": "string",
+  "format": "asdadad",
+  "number_of_pages": "0",
+  "authorId": "350"
+}
+[2025-02-16T12:56:13.623Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": "350"
+  },
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "SSSSSSSSSSS",
+  "isbn": "string",
+  "format": "asdadad",
+  "number_of_pages": "0"
+}
+[2025-02-16T12:56:14.634Z] [31MERROR[39M: Failed to update book
+[2025-02-16T12:56:14.658Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:56:14.659Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:56:25.464Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:56:25.465Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:56:35.087Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:56:35.087Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:56:45.143Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:56:45.143Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:56:45.144Z] [32MINFO[39M: Updating book with ID: {
+  "id": "929",
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "ddddddd",
+  "isbn": "string",
+  "format": "asdadad",
+  "number_of_pages": "0",
+  "authorId": "350"
+}
+[2025-02-16T12:56:45.145Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 350
+  },
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "ddddddd",
+  "isbn": "string",
+  "format": "asdadad",
+  "number_of_pages": "0"
+}
+[2025-02-16T12:56:46.164Z] [31MERROR[39M: Failed to update book
+[2025-02-16T12:56:46.175Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:56:46.175Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:57:17.238Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:57:17.239Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:57:25.621Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:57:25.622Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:57:25.623Z] [32MINFO[39M: Updating book with ID: {
+  "id": "929",
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "aaaaaaaaaaaa",
+  "isbn": "string",
+  "format": "asdadad",
+  "number_of_pages": "0",
+  "authorId": "350"
+}
+[2025-02-16T12:57:25.623Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 350
+  },
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "aaaaaaaaaaaa",
+  "isbn": "string",
+  "format": "asdadad",
+  "number_of_pages": "0"
+}
+[2025-02-16T12:57:27.938Z] [31MERROR[39M: Failed to update book
+[2025-02-16T12:57:27.961Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:57:27.962Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:58:05.590Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:58:05.591Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:58:11.584Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:58:11.586Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:58:29.484Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:58:29.484Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:58:29.485Z] [32MINFO[39M: Updating book with ID: {
+  "id": "929",
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "QWERTYUI",
+  "isbn": "string",
+  "format": "asdadad",
+  "number_of_pages": "0",
+  "authorId": "350"
+}
+[2025-02-16T12:58:29.485Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 350
+  },
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "QWERTYUI",
+  "isbn": "string",
+  "format": "asdadad",
+  "number_of_pages": 0
+}
+[2025-02-16T12:58:30.524Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T12:58:30.533Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:58:30.533Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:59:29.439Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:59:29.439Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:59:32.808Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:59:32.808Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T12:59:47.101Z] [32MINFO[39M: Processing book update action
+[2025-02-16T12:59:47.101Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T12:59:47.102Z] [32MINFO[39M: Updating book with ID: {
+  "id": "929",
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "ASDADSSAD",
+  "isbn": "string",
+  "format": "asdadad",
+  "number_of_pages": "0",
+  "authorId": "350"
+}
+[2025-02-16T12:59:47.103Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 350
+  },
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "ASDADSSAD",
+  "isbn": "string",
+  "format": "asdadad",
+  "number_of_pages": 0
+}
+[2025-02-16T12:59:48.217Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T12:59:48.226Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T12:59:48.226Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:00:07.288Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:00:07.289Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:00:18.276Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:00:18.277Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:00:51.167Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:00:51.167Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:01:14.408Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:01:14.409Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:01:25.745Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:01:25.746Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:01:29.139Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:01:29.140Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:01:48.124Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:01:48.124Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:01:51.432Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:01:51.432Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:02:04.555Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:02:04.556Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:02:17.125Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:02:17.125Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:02:30.053Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:02:30.053Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:02:31.789Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:02:31.790Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:02:33.432Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:02:33.433Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:02:34.649Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:02:34.650Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:02:36.481Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:02:36.481Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:02:39.506Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:02:39.506Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:02:41.511Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:02:41.511Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:02:52.626Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:02:52.627Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:02:55.590Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:02:55.590Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:02:58.776Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:02:58.777Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:03:07.251Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:03:07.252Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:03:11.066Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:03:11.066Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:03:14.475Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:03:14.476Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:03:15.903Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:03:15.904Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:03:38.665Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:03:38.666Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:03:51.430Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:03:51.430Z] [32MINFO[39M: request method "DELETE"
+[2025-02-16T13:03:51.432Z] [32MINFO[39M: Updating book with ID: {
+  "id": "929",
+  "title": "Cover Drive wer",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "ASDADSSAD",
+  "isbn": "string",
+  "format": "asdadad",
+  "number_of_pages": "0",
+  "authorId": "350"
+}
+[2025-02-16T13:03:52.588Z] [32MINFO[39M: Book deleted successfully
+[2025-02-16T13:03:52.602Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:03:52.604Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:03:58.209Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:03:58.210Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:04:56.561Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:04:56.562Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:05:10.294Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:05:10.294Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:05:16.281Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:05:16.281Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:05:20.738Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:05:20.738Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:05:24.344Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:05:24.345Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:05:31.644Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:05:31.644Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:05:36.327Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:05:36.327Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:05:38.396Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:05:38.396Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:05:40.271Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:05:40.272Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:05:42.671Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:05:42.672Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:05:45.315Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:05:45.316Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:05:53.614Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:05:53.615Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:06:00.028Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:06:00.028Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:06:01.953Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:06:01.953Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:06:13.245Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:06:13.246Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:06:16.246Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:06:16.246Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:06:18.197Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:06:18.197Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:06:19.315Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:06:19.315Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:06:23.002Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:06:23.002Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:06:30.354Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:06:30.355Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:06:35.711Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:06:35.712Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:06:37.785Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:06:37.786Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:06:52.879Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:06:52.879Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:06:53.976Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:06:58.237Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:06:58.237Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:07:02.680Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:07:05.911Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:07:05.911Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:07:23.851Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:07:23.851Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:07:33.210Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:07:33.211Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:07:47.195Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:07:47.196Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:07:57.730Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:07:57.731Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:08:17.886Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:08:17.886Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:08:30.273Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:08:30.273Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:08:44.059Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:08:44.059Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:08:49.802Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:08:49.803Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:08:57.192Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:08:57.192Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:09:47.888Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:09:47.889Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:09:59.862Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:09:59.863Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:10:01.453Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:10:01.453Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:10:03.711Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:10:03.712Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:10:08.448Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:10:08.448Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:10:16.366Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:10:16.366Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:10:19.400Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:10:19.401Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:10:21.818Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:10:21.818Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:10:41.843Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:10:41.843Z] [32MINFO[39M: request method "DELETE"
+[2025-02-16T13:10:41.845Z] [32MINFO[39M: Updating book with ID: {
+  "id": "941",
+  "title": "Cover Drive",
+  "release_date": "2025-02-22T00:00:00+00:00",
+  "description": "How To play cover drive",
+  "isbn": "ABCDF",
+  "format": "text",
+  "number_of_pages": "55",
+  "authorId": "350"
+}
+[2025-02-16T13:10:43.076Z] [32MINFO[39M: Book deleted successfully
+[2025-02-16T13:10:43.092Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:10:43.093Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:11:06.389Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:11:06.390Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:11:07.555Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:11:07.555Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:11:11.913Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:11:11.914Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:11:15.946Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:11:15.947Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:11:20.243Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:11:20.243Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:11:26.547Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:11:26.548Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:11:30.649Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:11:30.649Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:11:39.129Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:11:39.129Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:11:43.869Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:11:43.869Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:11:46.178Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:11:50.684Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:11:50.684Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:11:52.201Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:11:52.201Z] [32MINFO[39M: request method "DELETE"
+[2025-02-16T13:11:52.202Z] [32MINFO[39M: Updating book with ID: {
+  "id": "942",
+  "title": "Hook shot",
+  "release_date": "2025-02-21T00:00:00+00:00",
+  "description": "This is hook shot",
+  "isbn": "FGHJ",
+  "format": "pdf",
+  "number_of_pages": "400",
+  "authorId": "350"
+}
+[2025-02-16T13:11:53.225Z] [32MINFO[39M: Book deleted successfully
+[2025-02-16T13:11:53.243Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:11:53.244Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:12:20.704Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:12:20.705Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:12:27.279Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:12:27.279Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:12:29.770Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:12:32.639Z] [32MINFO[39M: Inside Loading function of books add
+[2025-02-16T13:12:58.170Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:13:02.250Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:13:02.250Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:13:04.866Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:13:04.866Z] [32MINFO[39M: request method "DELETE"
+[2025-02-16T13:13:04.867Z] [32MINFO[39M: Updating book with ID: {
+  "id": "943",
+  "title": "cover drive",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is the best",
+  "isbn": "ABCD",
+  "format": "pdf",
+  "number_of_pages": "234",
+  "authorId": "350"
+}
+[2025-02-16T13:13:05.946Z] [32MINFO[39M: Book deleted successfully
+[2025-02-16T13:13:05.965Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:13:05.967Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:13:10.961Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:13:41.596Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:13:41.596Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:13:43.926Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:13:50.143Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:13:50.144Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:13:51.270Z] [32MINFO[39M: Inside Loading function of books add
+[2025-02-16T13:14:22.996Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:14:29.824Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:14:29.825Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:14:57.427Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:14:57.427Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:15:02.057Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:15:02.057Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:16:20.163Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:16:20.164Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:16:55.995Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:16:55.995Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T13:16:55.996Z] [32MINFO[39M: Updating book with ID: {
+  "id": "944",
+  "title": "Sample book wrrt",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": "50",
+  "authorId": "351"
+}
+[2025-02-16T13:16:55.996Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 351
+  },
+  "title": "Sample book wrrt",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": 50
+}
+[2025-02-16T13:16:57.009Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T13:16:57.015Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:16:57.016Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:17:13.435Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:17:17.240Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:17:17.241Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:17:29.925Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:17:29.925Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T13:17:29.926Z] [32MINFO[39M: Updating book with ID: {
+  "id": "944",
+  "title": "Sample book wrrteqweqee",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": "50",
+  "authorId": "351"
+}
+[2025-02-16T13:17:29.926Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 351
+  },
+  "title": "Sample book wrrteqweqee",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": 50
+}
+[2025-02-16T13:17:30.896Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T13:17:30.914Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:17:30.915Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:18:35.131Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:18:35.132Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:18:37.235Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:18:37.235Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:18:40.827Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:18:40.827Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:18:48.115Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:18:48.115Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:18:53.732Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:18:53.734Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:19:01.656Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:19:01.657Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:19:05.418Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:19:05.418Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T13:19:05.419Z] [32MINFO[39M: Updating book with ID: {
+  "id": "944",
+  "title": "Sample book wrrtsdfsfsf",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": "50",
+  "authorId": "351"
+}
+[2025-02-16T13:19:05.419Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 351
+  },
+  "title": "Sample book wrrtsdfsfsf",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": 50
+}
+[2025-02-16T13:19:06.438Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T13:19:06.456Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:19:06.457Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:19:30.020Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:19:30.021Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T13:19:30.022Z] [32MINFO[39M: Updating book with ID: {
+  "id": "944",
+  "title": "Sample book wrrtsdfsfsf",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": "50",
+  "authorId": "351"
+}
+[2025-02-16T13:19:30.022Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 351
+  },
+  "title": "Sample book wrrtsdfsfsf",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": 50
+}
+[2025-02-16T13:19:31.042Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T13:19:31.053Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:19:31.054Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:20:05.397Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:20:05.398Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:20:19.651Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:20:19.651Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T13:20:19.652Z] [32MINFO[39M: Updating book with ID: {
+  "id": "944",
+  "title": "Sample book wrrtasdaddddddd",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": "50",
+  "authorId": "351"
+}
+[2025-02-16T13:20:19.652Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 351
+  },
+  "title": "Sample book wrrtasdaddddddd",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": 50
+}
+[2025-02-16T13:20:20.862Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T13:20:20.876Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:20:20.877Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:20:51.528Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:20:51.528Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:20:59.356Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:20:59.356Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:21:05.053Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:21:05.053Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T13:21:05.054Z] [32MINFO[39M: Updating book with ID: {
+  "id": "944",
+  "title": "Sample book wrrtasdads",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": "50",
+  "authorId": "351"
+}
+[2025-02-16T13:21:05.055Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 351
+  },
+  "title": "Sample book wrrtasdads",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": 50
+}
+[2025-02-16T13:21:06.053Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T13:21:06.072Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:21:06.072Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:21:25.509Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:21:25.509Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:21:34.918Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:21:34.918Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T13:21:34.919Z] [32MINFO[39M: Updating book with ID: {
+  "id": "944",
+  "title": "Sample book",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": "50",
+  "authorId": "351"
+}
+[2025-02-16T13:21:34.919Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 351
+  },
+  "title": "Sample book",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": 50
+}
+[2025-02-16T13:21:35.915Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T13:21:35.934Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:21:35.935Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:22:06.988Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:22:06.988Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T13:22:06.989Z] [32MINFO[39M: Updating book with ID: {
+  "id": "944",
+  "title": "Sample book",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": "50",
+  "authorId": "351"
+}
+[2025-02-16T13:22:06.989Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 351
+  },
+  "title": "Sample book",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": 50
+}
+[2025-02-16T13:22:08.074Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T13:22:08.084Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:22:08.085Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:22:22.886Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:22:22.887Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:22:53.906Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:22:53.907Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:23:05.693Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:23:05.694Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:23:15.369Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:23:15.370Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:23:17.474Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:23:17.474Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:23:34.057Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:23:34.057Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:23:36.846Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:23:36.846Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:23:38.387Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:23:38.388Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:23:45.580Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:23:45.580Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T13:23:45.581Z] [32MINFO[39M: Updating book with ID: {
+  "id": "944",
+  "title": "Sample book wrrtasdaddad",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": "50",
+  "authorId": "351"
+}
+[2025-02-16T13:23:45.581Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 351
+  },
+  "title": "Sample book wrrtasdaddad",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": 50
+}
+[2025-02-16T13:23:46.605Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T13:23:46.620Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:23:46.621Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:24:58.493Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:24:58.493Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:25:03.580Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:25:03.580Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:25:06.697Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:25:06.697Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:25:09.523Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:25:09.523Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:25:18.412Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:25:18.413Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:35:42.206Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:35:42.208Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:35:44.802Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:35:44.803Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:36:25.624Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:36:25.624Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:36:44.055Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:36:44.055Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:36:45.807Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:36:45.807Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:36:48.871Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:36:48.871Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:36:55.589Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:36:55.590Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:37:05.639Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:37:05.639Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:37:08.885Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:37:08.886Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:37:34.510Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:37:34.510Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:37:38.225Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:37:38.225Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:37:45.545Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:37:45.546Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:37:49.536Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:37:49.537Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:38:08.388Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:38:08.388Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:38:16.111Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:38:16.111Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T13:38:16.112Z] [32MINFO[39M: Updating book with ID: {
+  "id": "944",
+  "title": "Sample book wrrtsddasdasddda",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": "50",
+  "authorId": "351"
+}
+[2025-02-16T13:38:16.112Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 351
+  },
+  "title": "Sample book wrrtsddasdasddda",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": 50
+}
+[2025-02-16T13:38:17.207Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T13:38:17.225Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:38:17.226Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:38:23.664Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:38:23.664Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:38:30.078Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:38:30.078Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T13:38:30.079Z] [32MINFO[39M: Updating book with ID: {
+  "id": "944",
+  "title": "Sample book wrrtdasdadadads",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": "50",
+  "authorId": "351"
+}
+[2025-02-16T13:38:30.079Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 351
+  },
+  "title": "Sample book wrrtdasdadadads",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": 50
+}
+[2025-02-16T13:38:31.337Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T13:38:31.355Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:38:31.355Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:38:50.099Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:38:50.099Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:38:52.334Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:38:52.335Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:38:56.335Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:38:56.335Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T13:38:56.336Z] [32MINFO[39M: Updating book with ID: {
+  "id": "944",
+  "title": "Sample book wrrtasdadd",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": "50",
+  "authorId": "351"
+}
+[2025-02-16T13:38:56.336Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 351
+  },
+  "title": "Sample book wrrtasdadd",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample book",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": 50
+}
+[2025-02-16T13:38:57.283Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T13:38:57.312Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:38:57.312Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:39:28.113Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:39:28.114Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:39:29.703Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:39:29.703Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:39:42.666Z] [32MINFO[39M: Processing book update action
+[2025-02-16T13:39:42.666Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T13:39:42.667Z] [32MINFO[39M: Updating book with ID: {
+  "id": "944",
+  "title": "Sample book",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": "50",
+  "authorId": "351"
+}
+[2025-02-16T13:39:42.667Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 351
+  },
+  "title": "Sample book",
+  "release_date": "2025-02-19T00:00:00+00:00",
+  "description": "This is sample",
+  "isbn": "ABVF",
+  "format": "Text",
+  "number_of_pages": 50
+}
+[2025-02-16T13:39:43.732Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T13:39:43.739Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T13:39:43.739Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T13:39:52.983Z] [32MINFO[39M: Inside Loading function of Loader
