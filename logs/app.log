@@ -1706,3 +1706,202 @@
 [2025-02-16T13:39:43.739Z] [32MINFO[39M: Checking if user is authenticated in loader function
 [2025-02-16T13:39:43.739Z] [32MINFO[39M: User is authenticated, proceeding
 [2025-02-16T13:39:52.983Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:41:56.323Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:41:57.890Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:42:05.143Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:42:05.143Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:42:09.753Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:42:09.753Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:42:16.285Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:42:16.285Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:42:20.376Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:42:20.376Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:42:44.707Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:42:44.708Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:43:01.458Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:43:01.458Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:43:12.482Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:43:12.482Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:43:22.573Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:43:22.573Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:43:27.004Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:43:27.005Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:43:32.404Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:43:32.405Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:43:34.271Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:43:34.271Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:43:35.200Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:43:35.201Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:44:10.227Z] [32MINFO[39M: Inside Action function of Profile
+[2025-02-16T13:44:11.499Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:44:11.500Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:44:43.139Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:44:43.140Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:44:47.546Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:44:47.547Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:44:51.173Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:44:51.174Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:44:53.697Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:44:53.698Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:44:57.568Z] [32MINFO[39M: Inside Action function of Profile
+[2025-02-16T13:44:58.703Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:44:58.705Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:45:22.399Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:45:22.399Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:45:33.603Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:45:33.604Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:45:37.889Z] [32MINFO[39M: Inside Action function of Profile
+[2025-02-16T13:45:38.948Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:45:38.949Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:47:46.618Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:47:46.619Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:47:53.573Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:47:53.574Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:48:05.606Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:48:05.606Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:48:54.616Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:48:54.617Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:49:01.625Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:49:01.626Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:49:08.626Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:49:08.626Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:49:26.614Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:49:26.614Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:49:30.622Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:49:30.622Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:49:38.622Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:49:38.623Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:49:43.628Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:49:43.629Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:49:47.014Z] [32MINFO[39M: Inside Action function of Profile
+[2025-02-16T13:49:48.172Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:49:48.172Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:49:55.153Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:49:57.076Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:49:57.077Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:50:38.936Z] [32MINFO[39M: Inside Action function of Profile
+[2025-02-16T13:50:40.207Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:50:40.208Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:50:46.863Z] [32MINFO[39M: Inside Action function of Profile
+[2025-02-16T13:50:49.176Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:50:49.177Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:50:50.689Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:50:52.637Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:50:52.637Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:51:01.955Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:51:01.956Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:51:03.647Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:51:03.648Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:51:28.469Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:51:28.469Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:51:31.746Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:51:31.747Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:51:34.081Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:51:34.082Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:51:39.761Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:51:39.761Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:51:44.970Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:51:44.970Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:51:56.827Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:51:56.827Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:52:13.230Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:52:13.230Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:52:15.027Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:52:15.027Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:52:19.024Z] [32MINFO[39M: Inside Action function of Profile
+[2025-02-16T13:52:20.159Z] [32MINFO[39M: Inside Loading function of Profile
+[2025-02-16T13:52:20.159Z] [32MINFO[39M: Leaving Loading function of Profile
+[2025-02-16T13:53:07.774Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:54:34.640Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:55:03.288Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:55:04.653Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:55:45.586Z] [32MINFO[39M: Loading Profile: Checking if user is authenticated
+[2025-02-16T13:55:45.587Z] [32MINFO[39M: User authenticated, loading profile data.
+[2025-02-16T13:55:51.705Z] [32MINFO[39M: Processing profile update action.
+[2025-02-16T13:55:51.706Z] [32MINFO[39M: Sending update request for user ID: 50
+[2025-02-16T13:55:52.962Z] [32MINFO[39M: Profile updated successfully.
+[2025-02-16T13:55:52.974Z] [32MINFO[39M: Loading Profile: Checking if user is authenticated
+[2025-02-16T13:55:52.975Z] [32MINFO[39M: User authenticated, loading profile data.
+[2025-02-16T13:56:28.005Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:57:02.431Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:57:08.110Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:58:42.804Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:58:42.804Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T13:58:53.995Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:58:53.997Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T13:58:57.724Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:58:57.724Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T13:58:59.613Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:58:59.614Z] [32MINFO[39M: Fetching authors data for page 3
+[2025-02-16T13:59:01.201Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:01.202Z] [32MINFO[39M: Fetching authors data for page 4
+[2025-02-16T13:59:03.012Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:03.012Z] [32MINFO[39M: Fetching authors data for page 3
+[2025-02-16T13:59:04.339Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:04.339Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T13:59:05.674Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:05.675Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T13:59:07.622Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:07.623Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T13:59:09.064Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:09.064Z] [32MINFO[39M: Fetching authors data for page 3
+[2025-02-16T13:59:13.697Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:13.698Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T13:59:15.120Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:15.120Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T13:59:18.234Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:18.235Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T13:59:19.533Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:19.535Z] [32MINFO[39M: Fetching authors data for page 3
+[2025-02-16T13:59:20.972Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:20.973Z] [32MINFO[39M: Fetching authors data for page 4
+[2025-02-16T13:59:22.547Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:22.548Z] [32MINFO[39M: Fetching authors data for page 3
+[2025-02-16T13:59:23.899Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:23.900Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T13:59:25.472Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T13:59:25.473Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:00:03.984Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T14:00:03.985Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T14:00:06.636Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:00:06.637Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:00:17.187Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:00:17.188Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T14:00:22.635Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:00:22.636Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:00:27.284Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:00:27.285Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T14:00:28.391Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:00:28.392Z] [32MINFO[39M: Fetching authors data for page 3
+[2025-02-16T14:00:29.560Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:00:29.560Z] [32MINFO[39M: Fetching authors data for page 4
+[2025-02-16T14:00:30.760Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:00:30.760Z] [32MINFO[39M: Fetching authors data for page 3
+[2025-02-16T14:00:31.165Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:00:31.166Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T14:00:32.306Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:00:32.309Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:00:47.051Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:00:47.051Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:00:49.086Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:00:49.086Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T14:00:50.826Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:00:50.828Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:01:00.500Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:01:00.501Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:01:04.027Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:01:04.027Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T14:01:05.591Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:01:05.591Z] [32MINFO[39M: Fetching authors data for page 3
+[2025-02-16T14:01:07.569Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:01:07.570Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T14:01:09.683Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:01:09.684Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:01:11.810Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:01:11.810Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T14:01:13.675Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:01:13.675Z] [32MINFO[39M: Fetching authors data for page 3
+[2025-02-16T14:01:16.177Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:01:16.177Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T14:01:29.290Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:01:29.291Z] [32MINFO[39M: Fetching authors data for page 2

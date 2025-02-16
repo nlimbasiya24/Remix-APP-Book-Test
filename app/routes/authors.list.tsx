@@ -1,11 +1,9 @@
-// remix-test-app/app/routes/authors.tsx
 import { LoaderFunction, defer, redirect } from "@remix-run/node";
 import { useLoaderData, Form, useSearchParams, Link, Await } from "@remix-run/react";
-import { Suspense } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { getSession } from "../session.server";
-import { Page, Card, DataTable, Button, Pagination, Spinner,BlockStack,InlineGrid,ButtonGroup } from "@shopify/polaris";
-import { useEffect } from "react";
-import { useParams, useNavigate } from "@remix-run/react";
+import { Page, Card, DataTable, Button, Pagination, Spinner, BlockStack, InlineGrid, ButtonGroup } from "@shopify/polaris";
+import { useNavigate } from "@remix-run/react";
 import { logger } from "../logger";
 
 interface Author {
@@ -17,7 +15,7 @@ interface Author {
   gender: string;
   place_of_birth: string;
   book_count: number;
-  book?:[];
+  books?: [];
 }
 
 interface AuthorsData {
@@ -27,7 +25,6 @@ interface AuthorsData {
 }
 
 export const loader: LoaderFunction = async ({ request }) => {
-
   logger.info("Inside Loading function of Loader");
   const session = await getSession(request.headers.get("Cookie"));
   const token = session.get("token");
@@ -38,6 +35,8 @@ export const loader: LoaderFunction = async ({ request }) => {
 
   const url = new URL(request.url);
   const page = url.searchParams.get("page") || "1";
+
+  logger.info(`Fetching authors data for page ${page}`);
 
   const authorsDataPromise = fetch(`https://candidate-testing.com/api/v2/authors?orderBy=id&direction=ASC&limit=12&page=${page}`, {
     headers: {
@@ -56,7 +55,7 @@ export const loader: LoaderFunction = async ({ request }) => {
           },
         });
         const authorDetail = await authorResponse.json();
-        return { ...author, book_count: authorDetail.books.length,books:authorDetail.books };
+        return { ...author, book_count: authorDetail.books.length, books: authorDetail.books };
       })
     );
   });
@@ -71,14 +70,33 @@ export default function AuthorsList() {
   const loaderData = useLoaderData<typeof loader>();
   const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate();
+  const [currentPage, setCurrentPage] = useState(Number(searchParams.get("page")) || 1);
+  const [totalPages, setTotalPages] = useState(1);
+  const [isLoading, setIsLoading] = useState(true);
+  const [isPaginating, setIsPaginating] = useState(false);
 
   useEffect(() => {
     if (loaderData.authorsWithBooksPromise) {
-      loaderData.authorsWithBooksPromise.then((authors:any) => {
+      loaderData.authorsWithBooksPromise.then((authors: any) => {
         localStorage.setItem("authorsData", JSON.stringify(authors));
+        setIsLoading(false);
       });
     }
+    loaderData.authorsDataPromise.then((data: AuthorsData) => {
+      setTotalPages(data.total_pages);
+    });
   }, [loaderData]);
+
+  const handlePageChange = (newPage: number) => {
+    setIsPaginating(true);
+    setCurrentPage(newPage);
+    setSearchParams({ page: String(newPage) });
+
+    // Simulate loading time to show spinner
+    setTimeout(() => {
+      setIsPaginating(false);
+    }, 500);
+  };
 
   return (
     <Page title="Authors">
@@ -93,40 +111,43 @@ export default function AuthorsList() {
                 <Button submit variant="primary" tone="critical" disabled={author.book_count > 0}>
                   Delete
                 </Button>
-              </Form>
+              </Form>,
             ]);
+
             return (
-            
               <BlockStack gap="200">
                 <Card>
-                   <BlockStack gap="200">
-                      <InlineGrid columns="1fr auto">
-                          <ButtonGroup>
-                              <Button
-                                onClick={() => navigate(`/books/add`)}
-                                accessibilityLabel="Add New Book"
-                                variant="primary"
-                              >
-                                Add New Book
-                              </Button> 
-                            </ButtonGroup>
-                      </InlineGrid>
-                        <DataTable 
-                          columnContentTypes={["text", "numeric", "text"]} 
-                          headings={["Name", "Book Count", "Actions"]} 
-                          rows={rows} 
-                        />
-                    </BlockStack>
-                  
+                  <BlockStack gap="200">
+                    <InlineGrid columns="1fr auto">
+                      <ButtonGroup>
+                        <Button
+                          onClick={() => navigate(`/books/add`)}
+                          accessibilityLabel="Add New Book"
+                          variant="primary"
+                        >
+                          Add New Book
+                        </Button>
+                      </ButtonGroup>
+                    </InlineGrid>
+                    {isLoading ? (
+                      <Spinner accessibilityLabel="Loading Authors Data" size="large" />
+                    ) : (
+                      <DataTable 
+                        columnContentTypes={["text", "numeric", "text"]} 
+                        headings={["Name", "Book Count", "Actions"]} 
+                        rows={rows} 
+                      />
+                    )}
+                  </BlockStack>
                 </Card>
-                    <Pagination
-                      hasPrevious={loaderData.authorsDataPromise.current_page > 1}
-                      onPrevious={() => setSearchParams({ page: String(loaderData.authorsDataPromise.current_page - 1) })}
-                      hasNext={loaderData.authorsDataPromise.current_page < loaderData.authorsDataPromise.total_pages}
-                      onNext={() => setSearchParams({ page: String(loaderData.authorsDataPromise.current_page + 1) })}
-                    />
-                </BlockStack>
-                
+                <Pagination
+                  hasPrevious={currentPage > 1}
+                  onPrevious={() => handlePageChange(currentPage - 1)}
+                  hasNext={currentPage < totalPages}
+                  onNext={() => handlePageChange(currentPage + 1)}
+                />
+                {isPaginating && <Spinner accessibilityLabel="Loading next page..." size="large" />}
+              </BlockStack>
             );
           }}
         </Await>
