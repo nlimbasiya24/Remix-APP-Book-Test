@@ -2046,3 +2046,5 @@
 [2025-02-16T15:01:41.424Z] [32MINFO[39M: User is authenticated, proceeding
 [2025-02-16T15:01:49.682Z] [32MINFO[39M: Inside Loading function of Loader
 [2025-02-16T15:01:49.683Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T15:05:19.722Z] [32MINFO[39M: Loading Profile: Checking if user is authenticated
+[2025-02-16T15:05:19.723Z] [32MINFO[39M: User authenticated, loading profile data.
