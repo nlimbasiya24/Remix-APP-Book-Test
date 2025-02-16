@@ -19,7 +19,7 @@ export default function Logout() {
       <Card>
         <h1 className="text-2xl font-bold">Are you sure you want to log out?</h1>
         <Form method="post">
-          <Button submit variant="tertiary">Confirm Logout</Button>
+          <Button variant="primary" tone="critical">Confirm Logout</Button>
         </Form>
       </Card>
     </Page>

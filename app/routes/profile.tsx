@@ -34,7 +34,7 @@ export default function Profile() {
       <Card>
         <h1 className="text-2xl font-bold">{user.first_name} {user.last_name}</h1>
         <Form method="post" action="/logout">
-          <Button submit variant="tertiary">Logout</Button>
+          <Button submit variant="primary" tone="critical">Logout</Button>
         </Form>
       </Card>
       <Card >
