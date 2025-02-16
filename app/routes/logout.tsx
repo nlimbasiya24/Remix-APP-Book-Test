@@ -3,7 +3,7 @@ import { ActionFunction, redirect } from "@remix-run/node";
 import { destroySession, getSession } from "../session.server";
 import { Page, Card, Button } from "@shopify/polaris";
 import { Form } from "@remix-run/react";
-import { logger } from  "../looger"
+import { logger } from  "../logger"
 
 export const action: ActionFunction = async ({ request }) => {
 

@@ -6,6 +6,7 @@ import { getSession } from "../session.server";
 import { Page, Card, DataTable, Button, Pagination, Spinner,BlockStack,InlineGrid,ButtonGroup } from "@shopify/polaris";
 import { useEffect } from "react";
 import { useParams, useNavigate } from "@remix-run/react";
+import { logger } from "../logger";
 
 interface Author {
   id: number;
@@ -26,6 +27,8 @@ interface AuthorsData {
 }
 
 export const loader: LoaderFunction = async ({ request }) => {
+
+  logger.info("Inside Loading function of Loader");
   const session = await getSession(request.headers.get("Cookie"));
   const token = session.get("token");
 
