@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from "@remix-run/react";
-import { Page, Card, DataTable, Button, Spinner, BlockStack, InlineGrid, Text } from "@shopify/polaris";
+import { Page, Card, DataTable, Button, Spinner, BlockStack, InlineGrid, Text, TextField } from "@shopify/polaris";
 import { useEffect, useState } from "react";
 
 interface Book {
@@ -21,8 +21,10 @@ interface Author {
 
 export default function AuthorDetails() {
   const { authorId } = useParams();
-
+  const navigate = useNavigate();
   const [author, setAuthor] = useState<Author | null>(null);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [filteredBooks, setFilteredBooks] = useState<Book[]>([]);
 
   useEffect(() => {
     const storedAuthors = localStorage.getItem("authorsData");
@@ -31,15 +33,27 @@ export default function AuthorDetails() {
       const foundAuthor = authors.find((a) => a.id === Number(authorId));
       if (foundAuthor) {
         setAuthor(foundAuthor);
+        setFilteredBooks(foundAuthor.books);
       }
     }
   }, [authorId]);
+
+  useEffect(() => {
+    if (author) {
+      const filtered = author.books.filter((book) =>
+        book.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        book.format.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        book.release_date.includes(searchQuery)
+      );
+      setFilteredBooks(filtered);
+    }
+  }, [searchQuery, author]);
 
   if (!author) {
     return <Spinner accessibilityLabel="Loading Author Details" size="large" />;
   }
 
-  const bookRows = author.books.map((book) => [
+  const bookRows = filteredBooks.map((book) => [
     book.title,
     book.description,
     book.release_date.split("T")[0],
@@ -57,14 +71,21 @@ export default function AuthorDetails() {
             <Text as="h2" variant="headingSm">
               {author.first_name} {author.last_name}
             </Text>
-            {/* <Button
+            <Button
               onClick={() => navigate(`/books/add`)}
               accessibilityLabel="Add New Book"
               variant="primary"
             >
               Add New Book
-            </Button> */}
+            </Button>
           </InlineGrid>
+          <TextField
+            label="Search Books"
+            value={searchQuery}
+            onChange={(value) => setSearchQuery(value)}
+            placeholder="Search by title, genre, or publication year"
+            autoComplete="off"
+          />
         </BlockStack>
       </Card>
       <Card>
