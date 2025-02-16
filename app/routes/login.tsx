@@ -10,7 +10,7 @@ export const action: ActionFunction = async ({ request }) => {
   const email = formData.get("email");
   const password = formData.get("password");
 
-  const response = await fetch("https://candidate-testing.com/api/v2/token", {
+  const response = await fetch(`${process.env.BASEURL}/token`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ email, password }),

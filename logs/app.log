@@ -1905,3 +1905,104 @@
 [2025-02-16T14:01:16.177Z] [32MINFO[39M: Fetching authors data for page 2
 [2025-02-16T14:01:29.290Z] [32MINFO[39M: Inside Loading function of Loader
 [2025-02-16T14:01:29.291Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T14:01:54.352Z] [32MINFO[39M: Loading Profile: Checking if user is authenticated
+[2025-02-16T14:01:54.353Z] [32MINFO[39M: User authenticated, loading profile data.
+[2025-02-16T14:02:19.413Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:02:19.414Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:02:24.047Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T14:02:24.049Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T14:02:27.360Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:02:27.362Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:02:31.729Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:02:31.731Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:03:03.431Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:03:03.432Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:18:40.718Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:18:40.719Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:25:33.947Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:25:33.948Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:25:47.298Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:25:47.298Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:25:50.594Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:25:50.594Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:28:20.892Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:28:20.893Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:28:35.936Z] [32MINFO[39M: Loading Profile: Checking if user is authenticated
+[2025-02-16T14:28:35.937Z] [32MINFO[39M: User authenticated, loading profile data.
+[2025-02-16T14:28:42.265Z] [32MINFO[39M: Processing profile update action.
+[2025-02-16T14:28:42.266Z] [32MINFO[39M: Sending update request for user ID: 50
+[2025-02-16T14:28:43.559Z] [32MINFO[39M: Profile updated successfully.
+[2025-02-16T14:28:43.570Z] [32MINFO[39M: Loading Profile: Checking if user is authenticated
+[2025-02-16T14:28:43.570Z] [32MINFO[39M: User authenticated, loading profile data.
+[2025-02-16T14:28:45.817Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:28:45.818Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:28:48.070Z] [32MINFO[39M: Loading Profile: Checking if user is authenticated
+[2025-02-16T14:28:48.070Z] [32MINFO[39M: User authenticated, loading profile data.
+[2025-02-16T14:28:51.716Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:28:51.717Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:29:10.235Z] [32MINFO[39M: Inside Loading function of books add
+[2025-02-16T14:29:43.536Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:29:43.537Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:29:52.564Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T14:29:52.564Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T14:30:02.631Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:30:02.632Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:30:07.218Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T14:30:07.219Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T14:30:30.421Z] [32MINFO[39M: Processing book update action
+[2025-02-16T14:30:30.421Z] [32MINFO[39M: request method "PUT"
+[2025-02-16T14:30:30.422Z] [32MINFO[39M: Updating book with ID: {
+  "id": "940",
+  "title": "ABCD EFTG",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "DEFFGHJ",
+  "isbn": "GHI",
+  "format": "hardcover",
+  "number_of_pages": "400",
+  "authorId": "342"
+}
+[2025-02-16T14:30:30.422Z] [32MINFO[39M: book payload is: {
+  "author": {
+    "id": 342
+  },
+  "title": "ABCD EFTG",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "DEFFGHJ",
+  "isbn": "GHI",
+  "format": "hardcover",
+  "number_of_pages": 400
+}
+[2025-02-16T14:30:31.600Z] [32MINFO[39M: Book updated successfully
+[2025-02-16T14:30:31.607Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T14:30:31.608Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T14:30:36.750Z] [32MINFO[39M: Processing book update action
+[2025-02-16T14:30:36.750Z] [32MINFO[39M: request method "DELETE"
+[2025-02-16T14:30:36.751Z] [32MINFO[39M: Updating book with ID: {
+  "id": "940",
+  "title": "ABCD EFTG",
+  "release_date": "2025-02-16T00:00:00+00:00",
+  "description": "DEFFGHJ",
+  "isbn": "GHI",
+  "format": "hardcover",
+  "number_of_pages": "400",
+  "authorId": "342"
+}
+[2025-02-16T14:30:37.871Z] [32MINFO[39M: Book deleted successfully
+[2025-02-16T14:30:37.877Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T14:30:37.878Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T14:30:47.046Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:30:47.047Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:31:05.584Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:31:05.585Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:31:09.773Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:31:09.773Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T14:31:11.192Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:31:11.194Z] [32MINFO[39M: Fetching authors data for page 3
+[2025-02-16T14:31:12.521Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:31:12.522Z] [32MINFO[39M: Fetching authors data for page 4
+[2025-02-16T14:31:14.114Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:31:14.114Z] [32MINFO[39M: Fetching authors data for page 3
+[2025-02-16T14:31:15.208Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:31:15.209Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T14:31:22.806Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:31:22.806Z] [32MINFO[39M: Fetching authors data for page 1
