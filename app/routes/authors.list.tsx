@@ -38,7 +38,7 @@ export const loader: LoaderFunction = async ({ request }) => {
 
   logger.info(`Fetching authors data for page ${page}`);
 
-  const authorsDataPromise = fetch(`${process.env.BASEURL}/authors?orderBy=id&direction=ASC&limit=1&page=${page}`, {
+  const authorsDataPromise = fetch(`${process.env.BASEURL}/authors?orderBy=id&direction=ASC&limit=10&page=${page}`, {
     headers: {
       "Accept": "application/json",
       "Authorization": token,

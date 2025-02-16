@@ -2024,3 +2024,25 @@
 [2025-02-16T14:56:10.623Z] [32MINFO[39M: User is authenticated, proceeding
 [2025-02-16T14:56:22.624Z] [32MINFO[39M: Checking if user is authenticated in loader function
 [2025-02-16T14:56:22.625Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T14:59:33.456Z] [32MINFO[39M: Inside Loading function of books add
+[2025-02-16T14:59:39.309Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:59:39.310Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:59:54.479Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:59:54.479Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T14:59:56.585Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:59:56.586Z] [32MINFO[39M: Fetching authors data for page 2
+[2025-02-16T14:59:57.894Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T14:59:57.894Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T15:00:04.593Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T15:00:04.593Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T15:00:14.041Z] [32MINFO[39M: Inside Loading function of books add
+[2025-02-16T15:01:27.424Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T15:01:27.425Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T15:01:34.120Z] [32MINFO[39M: Loading Profile: Checking if user is authenticated
+[2025-02-16T15:01:34.121Z] [32MINFO[39M: User authenticated, loading profile data.
+[2025-02-16T15:01:36.027Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T15:01:36.028Z] [32MINFO[39M: Fetching authors data for page 1
+[2025-02-16T15:01:41.423Z] [32MINFO[39M: Checking if user is authenticated in loader function
+[2025-02-16T15:01:41.424Z] [32MINFO[39M: User is authenticated, proceeding
+[2025-02-16T15:01:49.682Z] [32MINFO[39M: Inside Loading function of Loader
+[2025-02-16T15:01:49.683Z] [32MINFO[39M: Fetching authors data for page 1
